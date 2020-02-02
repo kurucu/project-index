@@ -19,11 +19,22 @@ $protocol = 'https://';
 // Set the TLD to use (appended to directory name)
 $tld = '.test/';
 
+// The page title
+$title = 'Projects';
+
 // Removes the ignored ones from the directory
 $files = array_diff(scandir($directory), $ignore);
 ?>
-<html>
+<!doctype html>
+
+<html lang="en">
+
     <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A list of your web projects.">
+        
+        <title><?php echo $title ?></title>
+        
         <link href="public.css" rel="stylesheet">
     </head>
     

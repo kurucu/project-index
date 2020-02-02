@@ -16,6 +16,7 @@ Edit `public/index.php`, and amend the following variables as required:
   * `$ignore` - An array of folders to be ignored (default: `['.', '..', '.DS_Store']`)
   * `$protocol` - The protocol to be prepended to the content name (default: `https://`)
   * `$tld` - The TLD to be appended to the content name (default: `.test`)
+  * `$title` - The title of the page (default: `Projects`)
 
 ## Advanced
 
