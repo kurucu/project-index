@@ -3,6 +3,12 @@
     "tailwindcss": "^1.1.4"
   },
   "scripts": {
-    "build": "npx tailwind build tailwind.css -o public.css"
-  }
+    "build": "npx tailwind build tailwind.css -o public/public.css"
+  },
+  "name": "Project Index",
+  "version": "1.0.0",
+  "repository": "git@github.com:kurucu/project-index.git",
+  "author": "Elliot Ali <git@elliotali.com>",
+  "license": "MIT",
+  "description": "A little tool to provide an index page for all of your current projects."
 }
