@@ -13,7 +13,10 @@ $ignore = [
     'x-next'
 ];
 
+// Set the protocol to use (prepended to directory name)
 $protocol = 'https://';
+
+// Set the TLD to use (appended to directory name)
 $tld = '.test/';
 
 // Removes the ignored ones from the directory
