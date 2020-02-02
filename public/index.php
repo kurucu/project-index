@@ -13,6 +13,9 @@ $ignore = [
     'x-next'
 ];
 
+$protocol = 'https://';
+$tld = '.test/';
+
 // Removes the ignored ones from the directory
 $files = array_diff(scandir($directory), $ignore);
 ?>
@@ -32,7 +35,7 @@ $files = array_diff(scandir($directory), $ignore);
                 <?php foreach($files as $file){ ?>
                     <li class="px-4 py-2 m-2 block bg-indigo-700 rounded shadow">
                         <a
-                            href="http://<?php echo $file ?>.test/"
+                            href="<?php echo $protocol . $file . $tld ?>"
                             target="_blank"
                             class="text-white hover:underline"
                         >
